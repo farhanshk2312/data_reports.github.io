@@ -68,7 +68,7 @@
 			<!-- Main -->
 				<article id="main">
 
-					<header class="special container" style="text-align: left; margin-left: 275px;">
+					<header class="special container">
 						<span class="icon solid fa-chart-bar"></span>
 						<h2>Insights & Recommendations</h2><br />
 						<blockquote>This section highlights the key patterns uncovered during the loan data analysis and provides actionable recommendations for improving credit risk assessment, optimizing lending strategies, and enhancing borrower evaluation.</blockquote>
@@ -84,9 +84,10 @@
 										<div class="sidebar">
 											<section>
 												<header>
-												<h3>Insight</h3>
+												<h3>Recommendation</h3>
 												</header>
-												<p>Analysis shows that higher interest rate bins and lower loan grades consistently exhibit higher default rates. <br /><br />Borrowers with subprime grades (D and below) and loans priced above 15% default at significantly higher percentages, confirming the expected risk-return tradeoff.</p>
+												
+												<p>Lenders should tighten approval criteria for lower-grade borrowers at high interest brackets, or introduce risk-based pricing and enhanced monitoring for such segments. <br /><br />For investors, diversifying away from these high-risk categories can improve overall portfolio stability.</p>
 												<footer>
 													<!--<ul class="buttons">
 														<li><a href="#" class="button small">Learn More</a></li>
@@ -104,9 +105,9 @@
 												<a class="image featured"><img src="images/insight1.png" alt="" /></a>
 												
 												<header>
-													<h3>Recommendation</h3>
+													<h3>Insight</h3>
 												</header>
-												<p>Lenders should tighten approval criteria for lower-grade borrowers at high interest brackets, or introduce risk-based pricing and enhanced monitoring for such segments. <br /><br />For investors, diversifying away from these high-risk categories can improve overall portfolio stability.</p>
+												<p>Analysis shows that higher interest rate bins and lower loan grades consistently exhibit higher default rates. <br /><br />Borrowers with subprime grades (D and below) and loans priced above 15% default at significantly higher percentages, confirming the expected risk-return tradeoff.</p>
 											</section>
 										</div>
 								</div>
@@ -123,9 +124,18 @@
 										<div class="sidebar">
 											<section>
 												<header>
-												<h3>Insight</h3>
+												<h3>Recommendation</h3>
 												</header>
-												<p>Analysis of borrower behavior shows that loans with high Debt-to-Income (DTI) ratios and low revolving credit utilization exhibit the highest default rates. <br /><br />This indicates that borrowers who are heavily committed to fixed obligations (like mortgages, auto loans, or personal loans) are at greater risk of default, even if they do not heavily use revolving credit lines such as credit cards. <br /><br />In contrast, borrowers with lower DTI, regardless of revolving utilization, show significantly lower default rates.</p>
+												<p>Lenders should prioritize DTI over revolving utilization when assessing credit risk. Specifically:
+
+													<br /><br />1. Strengthen credit approval criteria for borrowers with high DTI, even if their revolving utilization is low.
+
+													<br /><br />2. Introduce risk-based pricing or stricter terms for high-DTI borrowers to mitigate potential defaults.
+
+													<br /><br />3. Enhance monitoring and early warning systems for borrowers with high DTI to proactively manage delinquencies.
+
+													<br /><br />4. For predictive modeling, use DTI and its interaction with revolving utilization as key features to improve default prediction accuracy. </p>
+											
 												<footer>
 													<!--<ul class="buttons">
 														<li><a href="#" class="button small">Learn More</a></li>
@@ -143,18 +153,11 @@
 												<a class="image featured"><img src="images/insight2.png" alt="" /></a>
 												
 												<header>
-													<h3>Recommendation</h3>
+													
+													<h3>Insight</h3>
 												</header>
-												<p>Lenders should prioritize DTI over revolving utilization when assessing credit risk. Specifically:
-
-													<br /><br />1. Strengthen credit approval criteria for borrowers with high DTI, even if their revolving utilization is low.
-
-													<br /><br />2. Introduce risk-based pricing or stricter terms for high-DTI borrowers to mitigate potential defaults.
-
-													<br /><br />3. Enhance monitoring and early warning systems for borrowers with high DTI to proactively manage delinquencies.
-
-													<br /><br />4. For predictive modeling, use DTI and its interaction with revolving utilization as key features to improve default prediction accuracy. </p>
-											</section>
+												<p>Analysis of borrower behavior shows that loans with high Debt-to-Income (DTI) ratios and low revolving credit utilization exhibit the highest default rates. <br /><br />This indicates that borrowers who are heavily committed to fixed obligations (like mortgages, auto loans, or personal loans) are at greater risk of default, even if they do not heavily use revolving credit lines such as credit cards. <br /><br />In contrast, borrowers with lower DTI, regardless of revolving utilization, show significantly lower default rates.</p>
+												
 										</div>
 								</div>
 							</div>
@@ -170,9 +173,18 @@
 										<div class="sidebar">
 											<section>
 												<header>
-												<h3>Insight</h3>
+												<h3>Recommendation</h3>
 												</header>
-												<p>Analysis of loan data indicates that loans with higher credit age (longer loan duration or older borrower credit history) tend to have higher default rates. <br /><br />This suggests that in this portfolio, older loans or long-standing borrowers may be more financially stressed or nearing the end of their repayment term, leading to increased likelihood of default. <br /><br />This highlights that not all long-standing credit relationships are low-risk, and loan age can sometimes indicate vulnerability rather than stability.</p>
+												<p>Based on this finding, lenders should:
+
+													<br /><br />1. Monitor older loans more closely for early signs of distress, especially as they age.
+
+													<br /><br />2. Incorporate loan age into predictive models, potentially as an interaction with other risk features such as DTI or outstanding balance.
+
+													<br /><br />3. Review risk policies for long-duration loans to ensure that repayment schedules and borrower monitoring are adequate.
+
+													<br /><br />4. Consider targeted interventions (e.g., reminders, restructuring options) for borrowers with older loans to reduce default likelihood. </p>
+											
 												<footer>
 													<!--<ul class="buttons">
 														<li><a href="#" class="button small">Learn More</a></li>
@@ -190,18 +202,11 @@
 												<a class="image featured"><img src="images/insight3.png" alt="" /></a>
 												
 												<header>
-													<h3>Recommendation</h3>
+													
+													<h3>Insight</h3>
 												</header>
-												<p>Based on this finding, lenders should:
-
-													<br /><br />1. Monitor older loans more closely for early signs of distress, especially as they age.
-
-													<br /><br />2. Incorporate loan age into predictive models, potentially as an interaction with other risk features such as DTI or outstanding balance.
-
-													<br /><br />3. Review risk policies for long-duration loans to ensure that repayment schedules and borrower monitoring are adequate.
-
-													<br /><br />4. Consider targeted interventions (e.g., reminders, restructuring options) for borrowers with older loans to reduce default likelihood. </p>
-											</section>
+												<p>Analysis of loan data indicates that loans with higher credit age (longer loan duration or older borrower credit history) tend to have higher default rates. <br /><br />This suggests that in this portfolio, older loans or long-standing borrowers may be more financially stressed or nearing the end of their repayment term, leading to increased likelihood of default. <br /><br />This highlights that not all long-standing credit relationships are low-risk, and loan age can sometimes indicate vulnerability rather than stability.</p>
+												
 										</div>
 								</div>
 							</div>
@@ -217,9 +222,17 @@
 										<div class="sidebar">
 											<section>
 												<header>
-												<h3>Insight</h3>
+												<h3>Recommendation</h3>
 												</header>
-												<p>Analysis of the loan portfolio shows that the majority of loans are graded B and C, which are considered medium-risk. <br /><br />This indicates that the lending strategy is focused on balanced risk-taking, avoiding overly conservative (Grade A) or highly speculative (Grade D and below) loans. <br /><br />Concentrating on medium-risk borrowers allows the lender to achieve reasonable returns while maintaining manageable default exposure.</p>
+												<p>Based on this finding, lenders should:
+
+													<br /><br />1. Continue targeting medium-risk borrowers (Grades B & C) to maintain a balance between yield and credit risk.
+
+													<br /><br />2. Monitor trends in loan grade distribution over time to ensure the portfolio does not drift towards higher-risk grades unintentionally.
+
+													<br /><br />3. Use credit-grade segmentation in predictive models to adjust interest rates, repayment terms, or additional risk mitigation strategies for higher-risk grades.
+
+													</p>
 												<footer>
 													<!--<ul class="buttons">
 														<li><a href="#" class="button small">Learn More</a></li>
@@ -237,17 +250,11 @@
 												<a class="image featured"><img src="images/insight4.png" alt="" /></a>
 												
 												<header>
-													<h3>Recommendation</h3>
+													
+													<h3>Insight</h3>
 												</header>
-												<p>Based on this finding, lenders should:
-
-													<br /><br />1. Continue targeting medium-risk borrowers (Grades B & C) to maintain a balance between yield and credit risk.
-
-													<br /><br />2. Monitor trends in loan grade distribution over time to ensure the portfolio does not drift towards higher-risk grades unintentionally.
-
-													<br /><br />3. Use credit-grade segmentation in predictive models to adjust interest rates, repayment terms, or additional risk mitigation strategies for higher-risk grades.
-
-													</p>
+												<p>Analysis of the loan portfolio shows that the majority of loans are graded B and C, which are considered medium-risk. <br /><br />This indicates that the lending strategy is focused on balanced risk-taking, avoiding overly conservative (Grade A) or highly speculative (Grade D and below) loans. <br /><br />Concentrating on medium-risk borrowers allows the lender to achieve reasonable returns while maintaining manageable default exposure.</p>
+												
 											</section>
 										</div>
 								</div>
@@ -262,9 +269,14 @@
 										<div class="sidebar">
 											<section>
 												<header>
-												<h3>Insight</h3>
+												<h3>Recommendation</h3>
 												</header>
-												<p>Analysis of the loan portfolio reveals that interest rates vary significantly across loan grades and sub-grades. Borrowers with higher-risk grades (e.g., C, D, or lower) are charged higher interest rates, while low-risk borrowers (Grade A or B) receive lower rates. <br /><br />Sub-grade analysis further refines this trend, showing that even within the same grade, interest rates adjust according to the borrower’s assessed risk. <br /><br />This demonstrates that the lender’s risk-based pricing strategy effectively differentiates credit risk among borrowers.</p>
+													<p>Based on this finding, lenders should:
+													<br /><br />1. Continue leveraging grade and sub-grade for risk-based pricing, as it aligns interest rates with borrower default risk.
+													<br /><br />2. Incorporate grade/sub-grade into predictive credit models to improve default risk estimation and optimize loan pricing.
+													<br /><br />3. Monitor interest rate trends across grades and sub-grades over time to ensure pricing remains aligned with observed default rates.
+													<br /><br />4. Consider further segmenting sub-grades for high-volume grades to fine-tune pricing and risk management strategies.
+													</p>
 												<footer>
 													<!--<ul class="buttons">
 														<li><a href="#" class="button small">Learn More</a></li>
@@ -279,14 +291,11 @@
 											<section>
 												<a class="image featured"><img src="images/insight5.png" alt="" /></a>
 												<header>
-													<h3>Recommendation</h3>
+													
+													<h3>Insight</h3>
 												</header>
-												<p>Based on this finding, lenders should:
-													<br /><br />1. Continue leveraging grade and sub-grade for risk-based pricing, as it aligns interest rates with borrower default risk.
-													<br /><br />2. Incorporate grade/sub-grade into predictive credit models to improve default risk estimation and optimize loan pricing.
-													<br /><br />3. Monitor interest rate trends across grades and sub-grades over time to ensure pricing remains aligned with observed default rates.
-													<br /><br />4. Consider further segmenting sub-grades for high-volume grades to fine-tune pricing and risk management strategies.
-													</p>
+												<p>Analysis of the loan portfolio reveals that interest rates vary significantly across loan grades and sub-grades. Borrowers with higher-risk grades (e.g., C, D, or lower) are charged higher interest rates, while low-risk borrowers (Grade A or B) receive lower rates. <br /><br />Sub-grade analysis further refines this trend, showing that even within the same grade, interest rates adjust according to the borrower’s assessed risk. <br /><br />This demonstrates that the lender’s risk-based pricing strategy effectively differentiates credit risk among borrowers.</p>
+											
 											</section>
 										</div>
 								</div>
@@ -301,9 +310,14 @@
 										<div class="sidebar">
 											<section>
 												<header>
-												<h3>Insight</h3>
+											<h3>Recommendation</h3>
 												</header>
-												<p>Analysis of the loan portfolio shows that recoveries are low relative to total defaults, meaning that a significant portion of defaulted loans is not being recovered. <br /><br />This indicates high risk exposure, as the lender is unable to recoup most of the principal lost due to defaults. A low recovery rate highlights potential weaknesses in collection practices or collateral management and underscores the importance of proactive risk management.</p>
+												<p>Based on this finding, lenders should:
+													<br /><br />1. Enhance collection and recovery processes to improve recoveries on defaulted loans, including timely follow-ups, restructuring, or leveraging collateral where applicable.
+													<br /><br />2. Incorporate recovery likelihood into credit risk models, so loans with low expected recoveries can be priced appropriately or subject to stricter approval criteria.
+													<br /><br />3. Review lending policies for high-risk borrowers to reduce exposure, including adjusting loan amounts, terms, or interest rates based on predicted recovery rates.
+													<br /><br />4. Monitor recovery trends over time to identify patterns, such as borrower segments or loan types with consistently low recoveries, and take targeted actions.
+													</p>
 												<footer>
 													<!--<ul class="buttons">
 														<li><a href="#" class="button small">Learn More</a></li>
@@ -318,14 +332,11 @@
 											<section>
 												<a class="image featured"><img src="images/insight6.png" alt="" /></a>
 												<header>
-													<h3>Recommendation</h3>
+													
+													<h3>Insight</h3>
 												</header>
-												<p>Based on this finding, lenders should:
-													<br /><br />1. Enhance collection and recovery processes to improve recoveries on defaulted loans, including timely follow-ups, restructuring, or leveraging collateral where applicable.
-													<br /><br />2. Incorporate recovery likelihood into credit risk models, so loans with low expected recoveries can be priced appropriately or subject to stricter approval criteria.
-													<br /><br />3. Review lending policies for high-risk borrowers to reduce exposure, including adjusting loan amounts, terms, or interest rates based on predicted recovery rates.
-													<br /><br />4. Monitor recovery trends over time to identify patterns, such as borrower segments or loan types with consistently low recoveries, and take targeted actions.
-													</p>
+												<p>Analysis of the loan portfolio shows that recoveries are low relative to total defaults, meaning that a significant portion of defaulted loans is not being recovered. <br /><br />This indicates high risk exposure, as the lender is unable to recoup most of the principal lost due to defaults. A low recovery rate highlights potential weaknesses in collection practices or collateral management and underscores the importance of proactive risk management.</p>
+												
 											</section>
 										</div>
 								</div>
