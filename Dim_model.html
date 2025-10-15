@@ -1,0 +1,446 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Project Report</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="index is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header" class="alt">
+					<h6>crafted by,</h6><h1>Dawood Shaikh</h1>
+					<!--<nav id="nav">
+						<ul> 
+							<li class="current"><a href="index.html">Main</a></li>
+							<li class="submenu">
+								<a href="#">Layouts</a>
+								<ul>
+									<li><a href="left-sidebar.html">Left Sidebar</a></li>
+									<li><a href="right-sidebar.html">Right Sidebar</a></li>
+									<li><a href="no-sidebar.html">No Sidebar</a></li>
+									<li><a href="contact.html">Contact</a></li>
+									<li class="submenu">
+										<a href="#">Submenu</a>
+										<ul>
+											<li><a href="#">Dolore Sed</a></li>
+											<li><a href="#">Consequat</a></li>
+											<li><a href="#">Lorem Magna</a></li>
+											<li><a href="#">Sed Magna</a></li>
+											<li><a href="#">Ipsum Nisl</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#" class="button primary">Sign Up</a></li>
+						</ul>
+					</nav>-->
+				</header>
+
+			<!-- Banner -->
+				<section id="banner">
+
+					<!--
+						".inner" is set up as an inline-block so it automatically expands
+						in both directions to fit whatever's inside it. This means it won't
+						automatically wrap lines, so be sure to use line breaks where
+						appropriate (<br />).
+					-->
+					<div class="inner">
+
+						<header>
+						<h2>project ideology</h2>
+						</header>
+						<p><strong>Credit Risk Data Warehouse & BI Analytics Platform</strong></p>
+						<footer>
+							<!--<ul class="buttons stacked">
+								<li><a href="#main" class="button fit scrolly">Explore More</a></li>
+							</ul>-->
+						</footer>
+
+					</div>
+
+				</section>
+
+			<!-- Main -->
+				<article id="main">
+
+					<header class="special container">
+						<span class="icon solid fa-chart-bar"></span>
+							
+					</header>
+					<!-- One -->
+						<section class="wrapper style2 container special-alt">
+							<div class="row gtr-50">
+								<div class="col-12 col-24-narrower">
+
+									<header>
+						<h2>Project Idea</h2><br />
+					
+						
+						<blockquote>Build a credit risk analytics platform that ingests raw loan application data, models it into a dimensional warehouse, exposes it through an SSAS Tabular semantic layer, and delivers interactive Power BI reports with enterprise features like RLS, automated deployment, and performance monitoring — simulating how financial institutions manage credit risk analytics at scale.</blockquote>
+						</header>
+									
+								</div>
+								
+							</div>
+						</section>
+
+						<!-- One -->
+						<section class="wrapper style2 container special-alt">
+							<div class="row gtr-50">
+								<div class="col-12 col-24-narrower">
+
+									<header>
+						<h2>Data Overview:</h2><br />
+						<p>The dataset consists of nine distinct files that collectively provide demographic, financial, and transactional information about loan applicants. The following are the components included in the dataset:</p>
+										
+						
+						<blockquote><p>The main training dataset, containing demographic, financial, and credit data for loan applicants. It includes information such as income, loan details, payment history, and other financial indicators.</p>
+							<p>Credit history data sourced from external financial institutions. It provides historical credit data about customers, their loan applications, and repayment behaviors.
+							</p>
+							<p>Time-series information on credit balances for applicants based on bureau credit records. It tracks balances across time and provides insights into credit behavior patterns.
+							</p>
+							<p>Credit card account balances for applicants. It includes details about spending, payment history, and credit utilization rates.
+							</p>
+							<p>Installment payment information for previous loans. This dataset provides insights into payment patterns, delays, and repayment schedules.</p>
+							<p>Historical data related to applicants' previous loan applications. It includes loan amounts, application status, payment delays, and other loan application attributes.
+							</p>
+							<p>Detailed financial account balances, which are critical for assessing spending habits, savings, and financial stability. This information can be used to evaluate repayment capabilities and risk factors associated with defaults.
+							</p>
+							
+							</blockquote>
+						</header>
+									
+								</div>
+								
+							</div>
+						</section>
+
+						
+
+					<!-- One -->
+						<section class="wrapper style2 container special-alt">
+							<div class="row gtr-50">
+								<div class="col-12 col-24-narrower">
+
+									<header>
+										<h2>Methodology:</h2>
+									<blockquote>
+										<p>Data Ingestion: Load raw CSV datasets into SQL Server using SSIS with audit logging, error handling, and archival.</p>
+										<p>Data Transformation & Quality: Clean, validate, and stage data before applying SCD Type 2 logic for conformed dimensions.</p>
+										<p>Dimensional Modeling: Design a star schema with Applicant, Bureau, Credit Card, and Date dimensions connected to multiple fact tables (Loan Applications, Installments, Credit Card Balances).</p>
+										<p>Semantic Modeling: Develop an SSAS Tabular model with DAX measures, hierarchies, and partitioning for fast analytical queries.</p>
+										<p>Business Intelligence: Create Power BI dashboards connected live to SSAS, providing insights into default rates, credit behavior, and demographic trends.</p>
+										<p>Security & Deployment: Implement dynamic Row-Level Security (RLS) in SSAS and automate Power BI report deployment to Report Server using PowerShell & REST API.</p>
+										<p>Governance & Monitoring: Integrate auditing, lineage, role-based access, data cataloging, and performance monitoring (ETL, SSAS, reporting layers).</p>
+									</blockquote>
+									</header>
+									
+								</div>
+								
+							</div>
+						</section> 
+
+						<!-- One -->
+						<section class="wrapper style2 container special-alt">
+							<div class="row gtr-50">
+								<div class="col-12 col-24-narrower">
+
+									<header>
+										<h2>Tools & Technologies:</h2>
+									<blockquote>
+										<p>ETL / Data Integration: SSIS (SQL Server Integration Services), T-SQL.</p>
+										<p>Data Storage: SQL Server (Raw, Staging, DW schemas).</p>
+										<p>Data Modeling: Kimball Dimensional Modeling (Star Schema, SCD Type 2).</p>
+										<p>Analytics Engine: SSAS Tabular (DAX, Partitions, Roles).</p>
+										<p>Visualization & Reporting: Power BI Desktop, Power BI Report Server.</p>
+										<p>Scripting & Automation: PowerShell, REST APIs for deployment.</p>
+										<p>Version Control & CI/CD: GitHub, scripted deployments, environment parameterization.</p>
+										<p>Monitoring & Governance: SSISDB logging, ReportServer Execution Logs, Data Catalog & Quality Reports.</p>
+									</blockquote>
+									</header>
+									
+								</div>
+								
+							</div>
+						</section> 
+						<!-- One -->
+						<section class="wrapper style2 container special-alt">
+							<div class="row gtr-50">
+								<div class="col-12 col-24-narrower">
+
+									<header>
+										<h2>Skills Showcase:</h2>
+									<p>Data Engineering</p>
+									<blockquote>
+										<p>End-to-end ETL pipeline development with SSIS.</p>
+										<p>Raw → Staging → DW architecture with incremental loads.</p>
+										<p>Data quality checks and auditing frameworks.</p>
+									</blockquote>
+
+										<p>Data Modeling</p>
+									<blockquote>
+										<p>Star schema design with multiple fact tables.</p>
+										<p>SCD Type 2 dimension handling and surrogate key management.</p>
+										<p>Partitioning & indexing for performance optimization.</p>
+									</blockquote>
+
+									<p>Business Intelligence</p>
+									<blockquote>
+										<p>Building SSAS Tabular models with DAX measures, hierarchies & perspectives.</p>
+										<p>Implementing dynamic Row-Level Security for multi-user access.</p>
+										<p>Power BI reporting using Live Connection to SSAS.</p>
+									</blockquote>
+
+									<p>Deployment & Administration</p>
+									<blockquote>
+										<p>Power BI Report Server deployment automation with PowerShell & REST.</p>
+										<p>CI/CD for SSIS, SSAS, and PBIX artifacts.</p>
+										<p>Role-based access, data governance, and monitoring setup.</p>
+									</blockquote>
+
+									<p>Performance & Optimization</p>
+									<blockquote>
+										<p>Columnstore indexing & partitioning for large fact tables.</p>
+										<p>SSAS partition processing & DAX query tuning.</p>
+										<p>End-to-end pipeline performance monitoring dashboards.</p>
+									</blockquote>
+
+
+
+									</header>
+									
+								</div>
+								
+							</div>
+						</section> 
+
+
+
+					
+					<!-- One -->
+						<section class="wrapper style2 container special-alt">
+							<div class="row gtr-50">
+								<div class="col-12 col-24-narrower">
+
+									<header>
+										<h2>Expected Outcomes</h2>
+									<blockquote>
+										<p>1. Establishing a production-style DW + BI pipeline replicating enterprise credit risk analytics.</p>
+										<p>2. Enabling secure, role-based reporting for different user groups using dynamic RLS.</p>
+										<p>3. Showcasing full lifecycle: ingestion → modeling → semantic layer → reporting → deployment → monitoring.</p>
+										<p>4. Producing a modular, scalable, and CI/CD-enabled analytics environment suitable for real financial institutions.</p>
+
+									</blockquote>
+									</header>
+									
+									<footer>
+										<ul class="buttons">
+											<li><a class="button primary">Shaping Up</a></li>
+										</ul>
+									</footer>
+
+								</div>
+								<!--<div class="col-4 col-12-narrower imp-narrower">
+
+									<ul class="featured-icons">
+										<li><span class="icon fa-chart-bar"><span class="label">Feature 1</span></span></li>
+										<li><span class="icon solid fa-database"><span class="label">Feature 2</span></span></li>
+										<li><span class="icon solid fa-laptop"><span class="label">Feature 3</span></span></li>
+										<li><span class="icon solid fa-file-alt"><span class="label">Feature 4</span></span></li>
+										<li><span class="icon solid solid fa-brain"><span class="label">Feature 5</span></span></li>
+										<li><span class="icon solid fa-cog"><span class="label">Feature 6</span></span></li>
+									</ul>
+
+								</div>-->
+							</div>
+						</section>
+
+					<!-- Two -->
+						<section class="wrapper style1 container special">
+							<div class="row">
+								<div class="col-4 col-12-narrower">
+
+									<section>
+										<span class="icon solid featured fa-check"></span>
+										<header>
+											<h3>Define Business Objective</h3>
+										</header>
+										<p>Understand the credit risk assessment problem and identify key analytical goals (e.g., default prediction, credit behavior patterns, loan portfolio health).</p>
+										<p>Map required KPIs and analytical use cases to available dataset components.</p>
+									</section>
+
+								</div>
+								<div class="col-4 col-12-narrower">
+
+									<section>
+										<span class="icon solid featured fa-check"></span>
+										<header>
+											<h3>Data Ingestion & Storage</h3>
+										</header>
+										<p>Ingest raw CSV datasets (applications, bureau, balances, payments, etc.) into SQL Server using SSIS ETL pipelines.</p>
+										<p>Establish a Landing → Raw → Staging data flow.</p>
+									</section>
+
+								</div>
+								<div class="col-4 col-12-narrower">
+
+									<section>
+										<span class="icon solid featured fa-check"></span>
+										<header>
+											<h3>Data Quality & Profiling</h3>
+										</header>
+										<p>Apply validation checks, handle missing values, and reject bad records into error tables.</p>
+										<p>Generate profiling summaries to identify data anomalies and structure transformation logic.</p>
+									</section>
+
+								</div>
+							</div>
+						</section>
+							<section class="wrapper style1 container special">
+							<div class="row">
+								<div class="col-4 col-12-narrower">
+
+									<section>
+										<span class="icon solid featured fa-check"></span>
+										<header>
+											<h3>Dimensional Modeling</h3>
+										</header>
+										<p>Design a star schema using Kimball methodology with conformed dimensions and fact tables.</p>
+										<p>Implement surrogate keys, SCD Type 2 for historical tracking, and partition large tables for performance.</p>
+									</section>
+
+								</div>
+								<div class="col-4 col-12-narrower">
+
+									<section>
+										<span class="icon solid featured fa-check"></span>
+										<header>
+											<h3>Semantic Modeling & Calculations</h3>
+										</header>
+										<p>Build an SSAS Tabular model on top of the data warehouse.</p>
+										<p>Define relationships, hierarchies, and DAX measures for business KPIs.</p>
+									</section>
+
+								</div>
+								<div class="col-4 col-12-narrower">
+
+									<section>
+										<span class="icon solid featured fa-check"></span>
+										<header>
+											<h3>Security & Governance</h3>
+										</header>
+										<p>Implement Row-Level Security (RLS) using SSAS roles and dynamic DAX filters.</p>
+										<p>Manage user-region mapping through dedicated access control tables.</p>
+										
+									</section>
+
+								</div>
+
+								<div class="col-4 col-12-narrower">
+
+									<section>
+										<span class="icon solid featured fa-check"></span>
+										<header>
+											<h3>Visualization & Reporting</h3>
+										</header>
+										<p>Develop interactive Power BI dashboards using a live connection to SSAS for real-time analysis.</p>
+										<p>Include drill-throughs, bookmarks, slicers, and executive summary views.</p>
+										
+										
+									</section>
+
+								</div>
+
+								<div class="col-4 col-12-narrower">
+
+									<section>
+										<span class="icon solid featured fa-check"></span>
+										<header>
+											<h3>Deployment & Automation</h3>
+										</header>
+										<p>Automate deployment of PBIX files and SSAS models to Power BI Report Server using PowerShell and REST APIs.</p>
+										<p>Maintain version control of all artifacts in GitHub for CI/CD readiness.</p>
+										
+									</section>
+
+								</div>
+
+								<div class="col-4 col-12-narrower">
+
+									<section>
+										<span class="icon solid featured fa-check"></span>
+										<header>
+											<h3>Performance Monitoring & Optimization</h3>
+										</header>
+										<p>Monitor ETL executions, optimize SQL queries, and analyze SSAS processing performance.</p>
+										<p>Build operational dashboards for tracking data pipeline health and report usage metrics.</p>
+										
+									</section>
+
+								</div>
+
+								
+							</div>
+						</section>
+
+					
+
+			<!-- CTA -->
+				<section id="cta">
+
+					<header>
+						<h2><strong>Explore More</strong></h2>
+						<p>Want to dive deeper into this project? <br /><br />You can explore the complete project files, code, and documentation in my GitHub repository, along with an interactive dashboard that brings the analysis to life.</p>
+					</header>
+					<footer>
+						<ul class="buttons">
+							<li><a class="button primary">Github Repo</a></li>
+							<li><a class="button primary">Dashboard</a></li>
+						</ul>
+					</footer>
+
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+
+					<ul class="icons">
+						<li><a href="" class="icon brands circle fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="" class="icon brands circle fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.linkedin.com/in/dawood-shaikh-21310747/" class="icon brands circle fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/farhanshk2312" class="icon brands circle fa-github"><span class="label">Github</span></a></li>
+						<li><a href="" class="icon brands circle fa-google-plus-g"><span class="label">Google+</span></a></li>
+						
+						
+					</ul>
+
+					<ul class="copyright">
+						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
